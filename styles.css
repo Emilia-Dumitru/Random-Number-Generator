@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    background-image: url("/Random-Number-Generator/imgs/header-picture.webp");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+    border-bottom: 5px solid #eabec2;
+    z-index: 1;
+}
+
+.header-text {
+    background-color: #eabec2;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    margin: 0;
+}
+
+.header-text p {
+    color: #f4e7e2;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.app-name {
+    border: 2px solid #eabec2;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    z-index: 2;
+}
+
+.app-name p {
+    margin: 0;
+    font-size: 1.25em;
+    color: #eabec2;
+    font-weight: bold;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-form-section,
+.right-form-section {
+    border: 3px solid #eabec2;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.btns button {
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #eabec2;
+    color: #ffff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+button:hover {
+    background-color: #f4e7e2;
+    color: #eabec2;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;/
+}
+
+.answer-section {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid#eabec2;
+    margin: 0 auto;
+}
+
+.answer-section h5 {
+    margin: 0;
+    padding: 0;
+}
