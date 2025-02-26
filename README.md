@@ -54,6 +54,6 @@ Click the "Generate" button to generate the random numbers based on your setting
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
 ### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 
